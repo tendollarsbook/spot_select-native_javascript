@@ -1,0 +1,271 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/earlyaccess/notosanstc.css");
+* {
+  font-family: 'Helvetica', 'Noto Sans TC', arial, 微軟正黑體, sans-serif;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.wrapper {
+  min-width: 320px; }
+
+.header {
+  background: url("http://www.kpop.com.tw/images/3d-b01-b.jpg");
+  background-position: top;
+  background-size: cover;
+  width: 100%;
+  height: 400px; }
+
+.container {
+  margin: auto;
+  width: 100%;
+  height: 100%; }
+
+.cover h1 {
+  font-family: 'Helvetica', 'Noto Sans TC', arial, 微軟正黑體, sans-serif;
+  font-size: 42px;
+  font-weight: 600;
+  letter-spacing: 8px;
+  text-align: center;
+  padding-top: 120px;
+  padding-bottom: 36px;
+  color: #4A266A; }
+
+.searcharea {
+  display: block;
+  margin: auto;
+  height: 48px;
+  width: 60%;
+  background-color: #fff;
+  opacity: 0.7;
+  cursor: pointer;
+  font-size: 22px; }
+
+.hot {
+  margin: auto;
+  margin-top: 80px;
+  width: 80%;
+  border-radius: 5px;
+  background-color: rgba(240, 232, 247, 0.5);
+  padding: 16px; }
+  .hot h2 {
+    font-family: 'Helvetica', 'Noto Sans TC', arial, 微軟正黑體, sans-serif;
+    font-size: 22px;
+    color: #4A266A;
+    font-weight: 700;
+    letter-spacing: 4px;
+    padding-bottom: 16px; }
+
+hr {
+  margin-top: 86px;
+  width: 80%;
+  border: 2px dashed #4A266A; }
+
+.hot_group {
+  margin: 0 auto; }
+
+.place {
+  padding: 8px 16px;
+  border-radius: 5px;
+  border: none;
+  color: #4A266A;
+  background-color: #DE95BA;
+  cursor: pointer;
+  font-size: 22px;
+  letter-spacing: 8px;
+  margin: 8px 16px;
+  -webkit-box-shadow: 0px 0px 35px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 35px rgba(0, 0, 0, 0.3);
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s; }
+
+.place:hover {
+  -webkit-box-shadow: 5px 5px 60px rgba(0, 0, 0, 0.4);
+  box-shadow: 5px 5px 60px rgba(0, 0, 0, 0.4);
+  -webkit-transform: translate(-5px, -5px);
+  -ms-transform: translate(-5px, -5px);
+  transform: translate(-5px, -5px); }
+
+.place:active {
+  background-color: #e07fb0; }
+
+.title {
+  font-family: 'Helvetica', 'Noto Sans TC', arial, 微軟正黑體, sans-serif;
+  font-size: 32px;
+  color: #4A266A;
+  font-weight: 700;
+  letter-spacing: 4px;
+  text-align: center;
+  margin: 32px; }
+
+.content {
+  max-width: 1024px;
+  margin: auto; }
+
+.footer {
+  background-color: #4A266A;
+  width: 100%;
+  height: 100%; }
+  .footer .container a {
+    text-decoration: none;
+    color: #FFD9E8;
+    font-size: 16px;
+    letter-spacing: 5px;
+    padding: 8px 16px;
+    text-align: center; }
+
+/* card */
+.card {
+  margin: 8px 0;
+  margin-left: calc( 10% / 4);
+  width: 30%;
+  background-color: #eee;
+  -webkit-box-shadow: 0px 0px 35px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 35px rgba(0, 0, 0, 0.3);
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  border-radius: 8px;
+  float: left; }
+  .card:hover {
+    -webkit-box-shadow: 5px 5px 60px rgba(0, 0, 0, 0.4);
+    box-shadow: 5px 5px 60px rgba(0, 0, 0, 0.4);
+    -webkit-transform: translate(-5px, -5px);
+    -ms-transform: translate(-5px, -5px);
+    transform: translate(-5px, -5px); }
+
+.u-cf:after {
+  content: "";
+  clear: both;
+  display: block;
+  height: 0;
+  visibility: hidden; }
+
+.card_top {
+  position: relative; }
+
+.card_inner {
+  width: 100%;
+  padding-top: 75%;
+  height: 0;
+  position: relative; }
+
+.card_cover {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-position: center;
+  background-size: cover;
+  border-radius: 8px; }
+
+.card_name {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 32px 16px;
+  padding-top: 45px;
+  background: -webkit-gradient(linear, left top, left bottom, from(transparent), to(black));
+  background: -webkit-linear-gradient(transparent 0%, black 100%);
+  background: -o-linear-gradient(transparent 0%, black 100%);
+  background: linear-gradient(transparent 0%, black 100%); }
+  .card_name h3 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    padding: 8px 16px;
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-weight: 500;
+    color: white; }
+  .card_name h5 {
+    padding: 8px 16px;
+    margin: 0;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color: white;
+    font-size: 16px; }
+
+.card_bottom {
+  padding: 8px 16px 16px 16px; }
+  .card_bottom ul {
+    line-height: 1.5;
+    list-style: none;
+    padding-left: 0;
+    letter-spacing: 1px;
+    font-size: 18px;
+    white-space: nowrap;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis; }
+  .card_bottom span {
+    font-weight: 800; }
+
+.card_btn {
+  margin-top: 10px;
+  display: inline-box;
+  text-align: center;
+  padding: 8px 16px; }
+  .card_btn a {
+    border: 1px solid #e3e3e3;
+    background-color: #eee;
+    border-radius: 8px;
+    color: initial;
+    text-decoration: initial;
+    padding: 8px 16px;
+    letter-spacing: 2px;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s; }
+    .card_btn a:hover {
+      background-color: #ccc; }
+
+@media screen and (max-width: 840px) {
+  .hot_group {
+    margin: auto;
+    width: 60%; }
+  hr {
+    margin-top: 140px; } }
+
+@media screen and (max-width: 768px) {
+  margin-left: calc( 10% / 3);
+  width: 45%; }
+
+@media screen and (max-width: 704px) {
+  .hot {
+    width: 50%;
+    margin: 50px auto; }
+  .hot_group {
+    margin: auto;
+    width: 50%; }
+  hr {
+    margin-top: 280px; } }
+
+@media screen and (max-width: 630px) {
+  .hot_group {
+    margin: auto;
+    width: 60%; } }
+
+@media screen and (max-width: 520px) {
+  margin-left: calc( 10% / 2);
+  width: 90%; }
+
+@media screen and (max-width: 480px) {
+  .hot {
+    width: 80%;
+    margin: 50px auto; } }
+
+@media screen and (max-width: 320px) {
+  .hot_group {
+    margin: auto;
+    width: 80%; }
+  .cover h1 {
+    font-size: 28px;
+    font-weight: 950; }
+  .footer .container a {
+    font-size: 10px; }
+  .searcharea {
+    font-size: 16px; } }
