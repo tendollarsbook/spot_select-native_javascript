@@ -161,6 +161,7 @@ hr {
   border-radius: 8px; }
 
 .card_name {
+  font-family: 'Helvetica', 'Noto Sans TC', arial, 微軟正黑體, sans-serif;
   position: absolute;
   bottom: 0;
   width: 100%;
@@ -192,6 +193,7 @@ hr {
 .card_bottom {
   padding: 8px 16px 16px 16px; }
   .card_bottom ul {
+    font-family: 'Helvetica', 'Noto Sans TC', arial, 微軟正黑體, sans-serif;
     line-height: 1.5;
     list-style: none;
     padding-left: 0;
@@ -219,7 +221,8 @@ hr {
     letter-spacing: 2px;
     -webkit-transition: 0.5s;
     -o-transition: 0.5s;
-    transition: 0.5s; }
+    transition: 0.5s;
+    font-family: 'Helvetica', 'Noto Sans TC', arial, 微軟正黑體, sans-serif; }
     .card_btn a:hover {
       background-color: #ccc; }
 
