@@ -234,8 +234,9 @@ hr {
     margin-top: 140px; } }
 
 @media screen and (max-width: 768px) {
-  margin-left: calc( 10% / 3);
-  width: 45%; }
+  .card {
+    margin-left: calc( 10% / 3);
+    width: 45%; } }
 
 @media screen and (max-width: 704px) {
   .hot {
@@ -253,8 +254,9 @@ hr {
     width: 60%; } }
 
 @media screen and (max-width: 520px) {
-  margin-left: calc( 10% / 2);
-  width: 90%; }
+  .card {
+    margin-left: calc( 10% / 2);
+    width: 90%; } }
 
 @media screen and (max-width: 480px) {
   .hot {
